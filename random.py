@@ -16,7 +16,7 @@ for i in range(number):
     maxi = max(A)
     mini = min(A)
     if mini == 0:
-        A.insert(i, maxi)
+        A.append(maxi)
 
 print(A)
 print(maxi)
